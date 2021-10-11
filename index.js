@@ -24,7 +24,7 @@ $(document).ready(function() {
         loginPage()
     })
     
-    if(login==='false' || login==='null')
+    if(login==false || login==null)
     {  
         loginPage()
     }
